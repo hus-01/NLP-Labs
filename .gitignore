@@ -1,0 +1,36 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Large datasets
+*.csv
+*.tsv
+*.parquet
+*.xlsx
+*.zip
+*.gz
+
+# Specific dataset
+07-yelp-dataset.txt
+
+# Trained models
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.safetensors
+
+# Secrets
+.env
+.env.*
+!.env.example
